@@ -16,3 +16,26 @@ Header, Nav, Article, div, Footer {
     
 
 }
+
+header,footer {
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+div {
+    width: 20%;
+    float: left;
+    height: 200px;
+}
+
+article {
+    width: 60%;
+    float: left;
+    height: 200px;
+}

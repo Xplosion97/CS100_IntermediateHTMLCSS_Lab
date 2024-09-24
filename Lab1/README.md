@@ -73,7 +73,14 @@ This file contains the structure we will style using CSS.
     - Add borders as gray color solid lines to separate each section.
     - Center the text in each section.
 ```css
-```
+```Header, Nav, Article, div, Footer {
+    padding: 10px;
+    background-color: yellow;
+    border: 2px solid grey;
+    text-align: center;
+    
+
+}
 
 ---
 ### Step 5: Positioning the Layout Using Floats
@@ -83,7 +90,29 @@ This file contains the structure we will style using CSS.
     - Assign width percentages to each remaining section: 20% for nav and div, and 60% for article. Set a height of these elements to 200px for visualization purposes.
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
-```
+```header,footer {
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+div {
+    width: 20%;
+    float: left;
+    height: 200px;
+}
+
+article {
+    width: 60%;
+    float: left;
+    height: 200px;
+}
+
 
 ---
 ### Step 6: Testing the Layout
